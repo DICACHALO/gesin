@@ -1,0 +1,96 @@
+@import url(font-awesome.min.css);
+
+body {background: rgba(77,63,95,1);
+background: -moz-linear-gradient(left, rgba(77,63,95,1) 0%, rgba(128,19,112,1) 0%, rgba(147,206,222,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,63,95,1)), color-stop(0%, rgba(128,19,112,1)), color-stop(100%, rgba(147,206,222,1)));
+background: -webkit-linear-gradient(left, rgba(77,63,95,1) 0%, rgba(128,19,112,1) 0%, rgba(147,206,222,1) 100%);
+background: -o-linear-gradient(left, rgba(77,63,95,1) 0%, rgba(128,19,112,1) 0%, rgba(147,206,222,1) 100%);
+background: -ms-linear-gradient(left, rgba(77,63,95,1) 0%, rgba(128,19,112,1) 0%, rgba(147,206,222,1) 100%);
+background: linear-gradient(to right, rgba(77,63,95,1) 0%, rgba(128,19,112,1) 0%, rgba(147,206,222,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d3f5f', endColorstr='#93cede', GradientType=1 );
+font-family: Verdana;}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #4D3F5F;
+}
+
+.login-header {
+  background: #4D3F5F;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+
+.login input[type="usuario"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="usuario"],
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #4D3F5F;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-family: Verdana;
+}
+
+.login input[type="submit"]:hover {
+  background: #C53CAE;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
